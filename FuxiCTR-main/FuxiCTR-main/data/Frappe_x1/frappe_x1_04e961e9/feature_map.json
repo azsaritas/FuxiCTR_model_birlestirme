@@ -1,0 +1,101 @@
+{
+    "dataset_id": "frappe_x1_04e961e9",
+    "num_fields": 10,
+    "total_features": 5399,
+    "input_length": 10,
+    "labels": [
+        "label"
+    ],
+    "features": [
+        {
+            "user": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 955,
+                "vocab_size": 956
+            }
+        },
+        {
+            "item": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 4083,
+                "vocab_size": 4084
+            }
+        },
+        {
+            "daytime": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 8,
+                "vocab_size": 9
+            }
+        },
+        {
+            "weekday": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 8,
+                "vocab_size": 9
+            }
+        },
+        {
+            "isweekend": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 3,
+                "vocab_size": 4
+            }
+        },
+        {
+            "homework": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 4,
+                "vocab_size": 5
+            }
+        },
+        {
+            "cost": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 3,
+                "vocab_size": 4
+            }
+        },
+        {
+            "weather": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 10,
+                "vocab_size": 11
+            }
+        },
+        {
+            "country": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 81,
+                "vocab_size": 82
+            }
+        },
+        {
+            "city": {
+                "source": "",
+                "type": "categorical",
+                "padding_idx": 0,
+                "oov_idx": 234,
+                "vocab_size": 235
+            }
+        }
+    ]
+}
